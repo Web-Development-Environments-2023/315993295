@@ -2,6 +2,62 @@
 {
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: auto;
+	background: rgba(57, 62, 65);
+	font-size: larger;
+	font-family: fantasy;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+a { color:white; text-decoration: none;}
+li{display: inline; padding-left: 7%;}
+
+h1{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	
+}
+section{
+	background-color: rgba(0, 0, 0, 0.404);
+	color: white;
+	font-size: large;
+}
+
+h1:before,
+h1:after {
+  background-color: #db01db;
+  content: "";
+  display: inline-block;
+  height: 4px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+html { 
+	background: url(https://www.revolvermag.com/sites/default/files/styles/banner/public/media/images/article/ozzy_2022_credit_rosshalfin.jpg?itok=3z9E10mT&timestamp=1663089878) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
+img{
+	width: 33%;
+	height: 500px;
+	object-fit: scale-down;
 }
