@@ -137,17 +137,19 @@ Contact Me
   <br>
   <input type="submit" value="Submit">
   <input type="Reset">
+
+  <script>
+    function sendEmail(){
+      var email = document.getElementById("email").value;
+      var subject = document.getElementById("etitle").value;
+      var body = document.getElementById("ebody").value;
+      var mail = "mailto:" + email + "?subject=" + subject + "&body=" + body;
+      window.open(mail, "_self");
+    }
+  </script>
 </form>
 
-<script>
-  function sendEmail(){
-    var email = document.getElementById("email").value;
-    var subject = document.getElementById("etitle").value;
-    var body = document.getElementById("ebody").value;
-    var mail = "mailto:" + email + "?subject=" + subject + "&body=" + body;
-    window.open(mail, "_self");
-  }
-</script>
+
 
 
 
